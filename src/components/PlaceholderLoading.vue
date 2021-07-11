@@ -58,7 +58,6 @@ export default {
     padding: 25px;
     margin: 0 auto;
   }
-
   @keyframes placeHolderShimmer {
     0% {
       background-position: -468px 0
@@ -67,7 +66,6 @@ export default {
       background-position: 468px 0
     }
   }
-
   .animated-background {
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -85,9 +83,6 @@ export default {
     background: #fff;
     position: absolute;
   }
-
-  /* Every thing below this is just positioning */
-
   .background-masker.header-top,
   .background-masker.header-bottom,
   .background-masker.subheader-bottom {
@@ -145,11 +140,9 @@ export default {
     right: 0;
     height: 6px;
   }
-
   .background-masker.content-top {
     height: 20px;
   }
-
   .background-masker.content-first-end,
   .background-masker.content-second-end,
   .background-masker.content-third-end {
@@ -159,20 +152,16 @@ export default {
     top: 60px;
     height: 8px;
   }
-
   .background-masker.content-second-line {
     top: 68px;
   }
-
   .background-masker.content-second-end {
     left: 420px;
     top: 74px;
   }
-
   .background-masker.content-third-line {
     top: 82px;
   }
-
   .background-masker.content-third-end {
     left: 300px;
     top: 88px;

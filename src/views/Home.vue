@@ -28,11 +28,6 @@ export default {
   components: {
     PlaceholderLoading,
   },
-  data() {
-    return {
-      isLoading: false,
-    };
-  },
   computed: {
     ...mapState(['headlines']),
   },
@@ -41,9 +36,7 @@ export default {
   },
   methods: {
     getAllHeadLines() {
-      this.isLoading = true;
       this.$store.dispatch("GET_ALL_HEADLINES").then(() => {
-        this.isLoading = false;
       });
     },
     setHeadlineImage(imageUrl) {
